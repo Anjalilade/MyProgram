@@ -2,6 +2,7 @@ public class simple {
     public static void main(String[]args){
         //simple program using data type
         // using byte
+        /*
         byte age=44;
         System.out.println(age);
 
@@ -25,6 +26,9 @@ public class simple {
         int a=100;
         short shortValue=(short)a;
         System.out.println(a);
+
+         */
+
 
 
 

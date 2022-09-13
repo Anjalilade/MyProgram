@@ -130,7 +130,7 @@ public class Assignment {
         //Write a program to find the square of the number 3.9
 
         //float a= 3.9f;
-        //float ch=a*a;
+        //float 3 ch=a*a;
        // System.out.println(ch);
 
         //operators
@@ -158,7 +158,146 @@ public class Assignment {
         */
 
         //assignment=3
-        //
+        // Write a program to calculate the perimeter of a triangle having sides of length 2,3 and 5 units.
+        /*
+        int a=2;
+        int b=3;
+        int c=5;
+        int perimeter=2*(a+b+c);
+        System.out.println(perimeter);
+
+         */
+
+
+        //Write a program to add 8 to the number 2345 and then divide it by 3
+        //System.out.println((8+2345)/3);
+
+        //Now the modulus of hte quotient is taken with 5 and then multiply the resultant value by 5
+        //System.out.println((float) (((8+2345)/3)%5)*5);
+
+        //Assignment=4
+        //Now, solve the above question[Assignment-3] using assignment operators(eg. +=,-=,*=)
+
+        //assignment=5
+        //write a program to check if the two number 23 and 45 are equal.
+        //System.out.println(23==45);//false
+
+        //assignment=6
+        // write a program to print the power of 7 raised to 5
+       // System.out.println(7*7*7*7*7);
+
+        //assignment=7
+        //assign value of variables 'a' and 'b' as 55and70 respectively and then check if both the condition 'a<50'
+       // and 'a<b' are true.
+        /*
+        int a=55;
+        int b=70;
+        System.out.println(a<50&a<b);//false
+
+         */
+
+
+        //assignment=8
+        //Now solve the above
+        //question[assignment=7] to check if at-least one of the  condition 'a<50' or 'a<b' is true.
+        /*
+        int a=55;
+        int b=70;
+        System.out.println(a<50||a<b);
+
+         */
+
+        //assignment=9
+        //If the marks of Robert in three subjects are 78,45,and 62 respectively(each out of 100),write a program to calculate his total
+        // makes and percentage marks.
+        /*int a=78;
+        int b=45;
+        int c=62;
+        float d=a+b+c;
+        float per=(d/300)*100;
+        System.out.println("the sum is");
+        System.out.println(d);//185.0
+        System.out.println("the percentage is");
+        System.out.println(per);//61.666668
+
+         */
+
+        //assignment=10
+        //suppose the value of variables 'a' and 'b' are and 8 respectively, write two program to swap the value of the two variables.
+        /* a=6;
+        int b=8;
+        int c=0;
+        c=a;
+        a=b;
+        b=c;
+        System.out.println(a);
+        System.out.println(b);
+
+         */
+        //assignment=11;
+        //write a program to convert fahrenheit into celsius
+        /*
+        int f=23;
+        float fc=(f-32)*5/9;
+        System.out.println(fc);
+
+         */
+
+        //assignment=12
+        // The total number of student in a class are 90 out of which 45 are boys.
+        // If 505 of the total student secured grade 'a' out of whhich 20 boys, then write a program to calculate te total number of girls getting grade'a'
+       /* int total=90;
+        int boys=45;
+        int girls=total-boys;
+        int AGradeBoys=20;
+        float per=(50*total)/100;
+        float sc=per-AGradeBoys;
+        System.out.println("total; girls are");
+        System.out.println(girls);
+        System.out.println("girls who get a grade");
+        System.out.println(sc);
+
+        */
+
+
+        //Assignment=13
+        // Write the program to calculate the sum of the  first and the second lat digit of a 5 digit
+        // Example:- number 12345;  Output:-(1+4=5)
+        int number=12345;
+        int sum=0;
+        int digit=number%10;//5
+        number=number/10;//1234
+
+        digit=number%10;//4
+        sum=sum+digit;
+
+        digit=number%10;//4
+        number=number/10;//123
+
+        digit=number%10;//3
+        number=number/10;//12
+
+        digit=number%10;//2
+        number=number/10;//1
+
+        digit=number%10;//1
+        number=number/10;//0
+
+        sum=sum+digit;
+        System.out.println("sum of the first and the second last digit is "+sum);
+
+
+
+
+
+
+
+
+        
+
+
+
+
 
 
 
