@@ -130,9 +130,9 @@ public class Assignment {
         //Assignment=8
         //Write a program to find the square of the number 3.9
 
-        //float a= 3.9f;
-        //float 3 ch=a*a;
-        // System.out.println(ch);
+       // float a= 3.9f;
+       // float  ch=a*a;
+       // System.out.println(ch);
 
         //operators
         //assignment=1
@@ -246,7 +246,7 @@ public class Assignment {
 
         //assignment=12
         // The total number of student in a class are 90 out of which 45 are boys.
-        // If 505 of the total student secured grade 'a' out of whhich 20 boys, then write a program to calculate te total number of girls getting grade'a'
+        // If 505 of the total student secured grade 'a' out of which 20 boys, then write a program to calculate te total number of girls getting grade 'a'
        /* int total=90;
         int boys=45;
         int girls=total-boys;
