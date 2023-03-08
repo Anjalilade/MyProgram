@@ -1,0 +1,168 @@
+public class ComparisionOperator {
+    public static void main(String[] args) {
+        // output of comparision:- its boolean type
+        /*
+        System.out.println(10 < 5);
+        System.out.println(10 > 5);
+        System.out.println(10 <= 5);
+        System.out.println(10 >= 5);
+        System.out.println(10 == 5);
+        System.out.println(10 != 5);
+        System.out.println(true == false);
+        System.out.println(true != false);
+
+         */
+
+        // Data Type Demo:-
+
+        //Byte
+        /*
+        byte b1=(byte)130;
+        System.out.println(b1);
+
+
+        //short
+        short s1=(short)32769;
+        System.out.println(s1);
+
+        //int
+
+        int I1=21474836;
+        System.out.println(I1);
+
+         */
+
+        // char
+        /*
+        char ch1='A';
+        char ch2=65;
+        System.out.println(ch1);
+        System.out.println(ch2);
+
+         */
+        //boolean
+        //boolean booleanValue=true;
+        //System.out.println(booleanValue);
+
+        //float
+        //float f1=100.5f;
+        //System.out.println(f1);
+
+        //double
+        // double d1=123456.244115f;
+        // System.out.println(d1);
+
+        //int
+        /*
+        int number=131;
+        byte b3=(byte)number;
+        System.out.println(b3);
+
+         */
+
+
+        // logical operator:-
+       /* System.out.println(4&2);
+  //      System.out.println(4&&2);
+        System.out.println(4|2);
+//        System.out.println(4||2);
+        System.out.println(true&false);
+        System.out.println(true&&false);
+        System.out.println(true|false);
+        System.out.println(true||false);
+
+        */
+
+        //bitwise operator
+
+       /*
+       System.out.println(4&5);
+
+        System.out.println(10+20);
+        System.out.println(10+"30");
+        System.out.println(true&false);
+
+        System.out.println(4&5);
+        System.out.println(4|5);
+        System.out.println(4^5);
+        System.out.println(4<<1);
+        System.out.println(4<<2);
+        System.out.println(4<<3);
+        System.out.println(4<<3);
+        System.out.println(4<<4);
+        System.out.println(4<<5);
+        System.out.println(4<<6);
+        System.out.println(4<<60);
+        System.out.println(4>>1);
+        System.out.println(4>>2);
+        System.out.println(4>>3);
+        System.out.println(~4);
+        System.out.println(~5);
+        System.out.println(~6);
+
+        */
+
+        //Increment decrement operator:=
+        //example1
+        /*
+        int a=1;
+        int b=++a;
+        int c=b++;
+        int d=a++;
+        System.out.println(a);
+        System.out.println(b);
+        System.out.println(c);
+        System.out.println(d);
+
+        //example2
+        int p=10;
+        int q=20;
+        int r=--p;
+        int s=q--;
+        System.out.println(p);
+        System.out.println(q);
+        System.out.println(r);
+        System.out.println(s);
+
+         */
+
+        // If-Else Demo
+        /*
+        if (false){
+            if (true){
+                System.out.println("if block");
+
+            }
+        }
+        else{
+            if (false) {
+                System.out.println("else block");
+
+
+            }
+        }
+        System.out.println("read of tte code");
+
+         */
+
+
+        //LeapYear program:=
+        /*
+        // int year=2000;
+        // int year=2021;
+        int year = 2022;
+        if (year % 400 == 0 || (year % 100 != 0 && year % 4 == 0)) {
+
+            System.out.println("not a leap year");
+
+        } else {
+            System.out.println("its a leap year");
+
+
+        }
+
+         */
+
+
+    }
+}
